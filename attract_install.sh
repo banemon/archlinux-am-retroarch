@@ -12,8 +12,8 @@ sudo pacman -S base-devel --needed
 #tar v2.1.0.tar.gz
 
 #cd attract-2.1.0
-git clone https://aur.archlinux.org/attract.git 
-
+# git clone https://aur.archlinux.org/attract.git 
+cd attract
 makepkg -s
 
 pacman -U attract-git.xxxxxxxxxxxxxxxx.pkg.tar.xz
